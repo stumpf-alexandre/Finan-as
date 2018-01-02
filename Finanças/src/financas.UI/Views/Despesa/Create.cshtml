@@ -1,0 +1,65 @@
+@model financas.domain.Despesa
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Criar Dados de Despesa</h2>
+
+<form action="/Despesa/Create" method="post">
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label>Id</label>
+            <input class="form-control" 
+                   type="hidden" 
+                   name="id" />
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input class="form-control" 
+                   type="text" 
+                   name="nome" />
+        </div>
+
+        <div class="form-group">
+            <label>Numero do Doc</label>
+            <input class="form-control" 
+                   type="text" 
+                   name="numDoc" />
+        </div>
+
+        <div class="form-group">
+            <label>Valor Gasto</label>
+            <input class="form-control" 
+                   type="text" 
+                   name="valor" />
+        </div>
+
+        <div class="form-group">
+            <label>Data do Gasto</label>
+            <input class="form-control" 
+                   type="text" 
+                   name="data" />
+        </div>
+
+        <div class="form-group">
+            <label>Grupo de Despesa</label>
+            <select class="form-control" name="GrupoDespesa.Id">
+                <option value="value">Selecione o Grupo de Despesa</option>
+
+                @foreach (financas.domain.GrupoDespesa item in ViewBag.GrupoDespesa)
+                {
+                    <option value="@item.Id">@item.nomeGrupo</option>
+                }
+            </select>
+        </div>
+        
+
+        <div class="form-group">
+            <input type="submit" 
+                   name="btnSave" 
+                   value="Salvar"
+                   class="btn btn-primary" />
+        </div>
+    </div>
+</form>

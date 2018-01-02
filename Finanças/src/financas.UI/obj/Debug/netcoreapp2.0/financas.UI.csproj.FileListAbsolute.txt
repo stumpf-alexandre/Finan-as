@@ -1,0 +1,14 @@
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\obj\Debug\netcoreapp2.0\financas.UI.csproj.CoreCompileInputs.cache
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\obj\Debug\netcoreapp2.0\financas.UI.AssemblyInfoInputs.cache
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\obj\Debug\netcoreapp2.0\financas.UI.AssemblyInfo.cs
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.UI.deps.json
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.UI.runtimeconfig.json
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.UI.runtimeconfig.dev.json
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.UI.dll
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.UI.pdb
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.domain.dll
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.repository.dll
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.repository.pdb
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\bin\Debug\netcoreapp2.0\financas.domain.pdb
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\obj\Debug\netcoreapp2.0\financas.UI.dll
+C:\Users\als\Desktop\VS_Code\financas\src\financas.UI\obj\Debug\netcoreapp2.0\financas.UI.pdb

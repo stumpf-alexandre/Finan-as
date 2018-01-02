@@ -1,0 +1,38 @@
+@model IEnumerable<financas.domain.Despesa>
+<a href="Despesa/Create">Novo Gasto</a>
+<a href="Despesa/CreateGrupo">Novo Grupo de Despesa</a>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Nunero do Doc</th>
+            <th>Valor Gasto</th>
+            <th>Data do Gasto</th>
+            <th>Grupo de Despesa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nome</td>
+                <td>@item.numDoc</td>
+                <td>@item.valor</td>
+                <td>@item.data</td>
+                <td>@item.GrupoDespesa.nomeGrupo</td>
+                <td><a class="btn btn-danger" href="Despesa/Delete/@item.id">Deletar</a> </td>
+                <td><a class="btn btn-primary" href="Despesa/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+        <tr></tr>
+    </tbody>
+</table>
